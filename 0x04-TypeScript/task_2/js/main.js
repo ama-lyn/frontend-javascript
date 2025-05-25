@@ -46,3 +46,14 @@ function executeWork(employee) {
 }
 console.log(executeWork(createEmployee(200))); // Getting to work
 console.log(executeWork(createEmployee(1000))); // Getting to director tasks
+// Define the teachClass function
+function teachClass(todayClass) {
+    if (todayClass === 'Math') {
+        return 'Teaching Math';
+    }
+    else {
+        return 'Teaching History';
+    }
+}
+console.log(teachClass('Math'));
+console.log(teachClass('History'));
